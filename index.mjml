@@ -1,0 +1,177 @@
+<mjml>
+  <mj-head>
+    <mj-title>Rippling Reminder Email</mj-title>
+    <mj-attributes>
+      <mj-all padding="0" font-family="Arial, Helvetica, sans-serif" />
+      <mj-section background-color="#F2EEEB" />
+    </mj-attributes>
+    <mj-raw>
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    </mj-raw>
+    <mj-style>
+      @media only screen and (max-width:480px) { 
+      .px-20 > table > tbody > tr > td { padding-left: 20px !important; padding-right: 20px !important; }
+      .textSize div { font-size: 16px !important; } .pt-10 { padding-top: 10px !important; } 
+      .text-xs { font-size: 10px !important; } 
+      .py-20 > table > tbody > tr > td { padding: 20px !important; }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F2EEEB">
+    <mj-section full-width="full-width" background-color="#F2EEEB">
+      <mj-column>
+        <mj-image
+          src="https://rippling-reminder-e-dm.vercel.app/images/img-header-600x400.jpg"
+          alt="Built for Borderless"
+          href="https://www.rippling.com/"
+          target="_blank"
+          width="600px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section full-width="full-width" background-color="#F2EEEB">
+      <mj-column padding="60px 30px 60px 30px" css-class="px-20">
+        <mj-text
+          font-size="24px"
+          font-weight="normal"
+          line-height="1.4"
+          padding="0 0 15px 0"
+          css-class="textSize"
+        >
+          Hi [firstname,fallback=],
+        </mj-text>
+        <mj-text
+          font-size="24px"
+          font-weight="bold"
+          line-height="1.4"
+          color="#7A005D"
+          padding="15px 0"
+          css-class="textSize pt-10"
+        >
+          We're looking forward to welcoming you to the&nbsp;Rippling Executive Lunch
+          on Thursday 25&nbsp;June at Onslow Restaurant from 12:00pm&nbsp;&#8209;&nbsp;2:30pm.
+        </mj-text>
+        <mj-text
+          font-size="24px"
+          font-weight="normal"
+          line-height="1.4"
+          padding="15px 0"
+          css-class="textSize pt-10"
+        >
+          Enjoy a lunch of insightful discussion, fresh perspectives and
+          valuable peer to peer networking. Together, we'll explore the
+          challenges and opportunities shaping today's workplace, from scaling
+          operations and managing growth to creating a seamless employee
+          experience.
+        </mj-text>
+        <mj-text
+          font-size="24px"
+          font-weight="normal"
+          line-height="1.4"
+          padding="15px 0"
+          css-class="textSize pt-10"
+        >
+          This intimate lunch has been designed to encourage open conversation,
+          knowledge sharing and meaningful connections with fellow leaders
+          facing similar business challenges.
+        </mj-text>
+        <mj-text
+          font-size="24px"
+          font-weight="normal"
+          line-height="1.4"
+          padding="15px 0"
+          css-class="textSize pt-10"
+        >
+          We look forward to welcoming you and facilitating an engaging
+          discussion with your peers and Rippling's leadership team.
+        </mj-text>
+        <mj-text
+          font-size="24px"
+          font-weight="bold"
+          line-height="1.4"
+          padding="15px 0"
+          css-class="textSize pt-10"
+        >
+          Onslow Restaurant<br />
+          Thursday 25 June<br />
+          12:00pm - 2:30pm
+        </mj-text>
+        <mj-text
+          font-size="24px"
+          font-weight="normal"
+          line-height="1.4"
+          padding="15px 0 0 0"
+          css-class="textSize pt-10"
+        >
+          Kind regards,<br />
+          The Rippling Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section full-width="full-width" background-color="#F2EEEB">
+      <mj-column>
+        <mj-image
+          src="https://rippling-reminder-e-dm.vercel.app/images/img-footer-600x92.jpg"
+          alt="Rippling footer"
+          href="https://www.rippling.com/"
+          target="_blank"
+          width="600px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section full-width="full-width" background-color="#F2EEEB">
+      <mj-column padding="30px 0 30px 0" css-class="py-20">
+        <mj-raw>
+          <div
+            style="
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 12px;
+              text-align: center;
+            "
+            class="text-xs"
+          >
+            <webversion
+              style="
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                color: #000000;
+                text-decoration: underline;
+                cursor: pointer;
+              "
+              class="text-xs"
+              >Web Version</webversion
+            >
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <preferences
+              style="
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                color: #000000;
+                text-decoration: underline;
+                cursor: pointer;
+              "
+              class="text-xs"
+              >Preferences</preferences
+            >
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <unsubscribe
+              style="
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                color: #000000;
+                text-decoration: underline;
+                cursor: pointer;
+              "
+              class="text-xs"
+              >Unsubscribe</unsubscribe
+            >
+          </div>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
