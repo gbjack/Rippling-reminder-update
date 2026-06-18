@@ -1,24 +1,34 @@
-<mjml>
+<mjml lang="en" dir="ltr">
   <mj-head>
     <mj-title>Rippling Reminder Email</mj-title>
     <mj-attributes>
-      <mj-all padding="0" font-family="Arial, Helvetica, sans-serif" />
+      <mj-all padding="0" />
+      <mj-text
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="18px"
+        color="#000000"
+        line-height="22px"
+      />
       <mj-section background-color="#F2EEEB" />
     </mj-attributes>
     <mj-raw>
-      <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+      <meta name="color-scheme" content="light" />
+      <meta name="supported-color-schemes" content="light" />
     </mj-raw>
     <mj-style>
-      @media only screen and (max-width:480px) { 
-      .px-20 > table > tbody > tr > td { padding-left: 20px !important; padding-right: 20px !important; }
-      .textSize div { font-size: 16px !important; } .pt-10 { padding-top: 10px !important; } 
-      .text-xs { font-size: 10px !important; } 
-      .py-20 > table > tbody > tr > td { padding: 20px !important; }
-      }
+      * [x-apple-data-detectors], table, td, p, a, li, span { font-family:
+      Helvetica, Arial, sans-serif !important; } [data-ogsc] .body-wrapper,
+      [data-ogsb] .body-wrapper { background-color: #ffffff !important; }
+      .body-wrapper { background-image: linear-gradient(#ffffff, #ffffff)
+      !important; } @media only screen and (max-width:480px) { .px-20 > table >
+      tbody > tr > td { padding-left: 20px !important; padding-right: 20px
+      !important; } .textSize div { font-size: 18px !important; line-height: 26px !important; } .pt-10 {
+      padding-top: 10px !important; } .text-xs { font-size: 10px !important; }
+      .py-20 > table > tbody > tr > td { padding: 20px !important; } }
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="#F2EEEB">
+  <mj-body css-class="body-wrapper" background-color="#F2EEEB" width="600px">
     <mj-section full-width="full-width" background-color="#F2EEEB">
       <mj-column>
         <mj-image
@@ -36,7 +46,7 @@
         <mj-text
           font-size="24px"
           font-weight="normal"
-          line-height="1.4"
+          line-height="34px"
           padding="0 0 15px 0"
           css-class="textSize"
         >
@@ -44,68 +54,83 @@
         </mj-text>
         <mj-text
           font-size="24px"
+          font-weight="normal"
+          line-height="34px"
+          padding="0 0 15px 0"
+          css-class="textSize"
+        >
+          Just a reminder that we're looking forward to seeing you at the
+          <b>Rippling Executive Lunch</b> next&nbsp;week.
+        </mj-text>
+        <mj-text
+          font-size="24px"
           font-weight="bold"
-          line-height="1.4"
+          line-height="34px"
           color="#7A005D"
           padding="15px 0"
           css-class="textSize pt-10"
         >
-          We're looking forward to welcoming you to the&nbsp;Rippling Executive Lunch
-          on Thursday 25&nbsp;June at Onslow Restaurant from 12:00pm&nbsp;&#8209;&nbsp;2:30pm.
+          Onslow Restaurant | Thursday 25&nbsp;June | 12:00pm&nbsp;-&nbsp;2:30pm
         </mj-text>
         <mj-text
           font-size="24px"
           font-weight="normal"
-          line-height="1.4"
+          line-height="34px"
           padding="15px 0"
           css-class="textSize pt-10"
         >
-          Enjoy a lunch of insightful discussion, fresh perspectives and
-          valuable peer to peer networking. Together, we'll explore the
-          challenges and opportunities shaping today's workplace, from scaling
-          operations and managing growth to creating a seamless employee
-          experience.
+          This is an intimate gathering of senior leaders and the Rippling team,
+          designed for honest conversation around the challenges shaping today's
+          workplaces — from scaling operations and global growth to building a
+          seamless employee&nbsp;experience.
         </mj-text>
         <mj-text
           font-size="24px"
           font-weight="normal"
-          line-height="1.4"
+          line-height="34px"
           padding="15px 0"
           css-class="textSize pt-10"
         >
-          This intimate lunch has been designed to encourage open conversation,
-          knowledge sharing and meaningful connections with fellow leaders
-          facing similar business challenges.
+          You can expect a relaxed, facilitated discussion over a two-course
+          lunch, with plenty of time to connect with your peers. There's no
+          formal agenda or presentations — just valuable, candid conversation
+          with a small group of like&#8209;minded&nbsp;leaders.
         </mj-text>
         <mj-text
           font-size="24px"
           font-weight="normal"
-          line-height="1.4"
+          line-height="34px"
           padding="15px 0"
           css-class="textSize pt-10"
         >
-          We look forward to welcoming you and facilitating an engaging
-          discussion with your peers and Rippling's leadership team.
-        </mj-text>
-        <mj-text
-          font-size="24px"
-          font-weight="bold"
-          line-height="1.4"
-          padding="15px 0"
-          css-class="textSize pt-10"
-        >
-          Onslow Restaurant<br />
-          Thursday 25 June<br />
-          12:00pm - 2:30pm
+          If you have any questions ahead of the day, or need to make changes to
+          your attendance, please reach&nbsp;out.
         </mj-text>
         <mj-text
           font-size="24px"
           font-weight="normal"
-          line-height="1.4"
+          line-height="34px"
+          padding="15px 0"
+          css-class="textSize pt-10"
+        >
+          We look forward to seeing you&nbsp;there.
+        </mj-text>
+        <mj-text
+          font-size="24px"
+          font-weight="normal"
+          line-height="34px"
           padding="15px 0 0 0"
           css-class="textSize pt-10"
         >
-          Kind regards,<br />
+          Kind regards,
+        </mj-text>
+        <mj-text
+          font-size="24px"
+          font-weight="normal"
+          line-height="34px"
+          padding="15px 0 0 0"
+          css-class="textSize pt-10"
+        >
           The Rippling Team
         </mj-text>
       </mj-column>
